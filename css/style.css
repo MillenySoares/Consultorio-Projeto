@@ -1,0 +1,44 @@
+.img{
+    margin: 0;
+    display: flex;
+    min-height: 380px;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 29px;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 25% 0;
+    background-blend-mode: overlay;
+    background-image: url(https://agendarconsulta.com/static/images/background_blue.png);
+}
+.font{
+    font-family: 'Heebo', sans-serif;
+    font-weight:500;
+    
+}
+.button{
+    color: #fff;
+    background-color: #e6890e;
+    border-color: #e6890e;
+    font-weight: bold;
+    border-radius: 0.5rem;
+
+}
+.img-icone{
+    width: 90px;
+    height: 90px;
+    border: none;
+    margin: 15px 115px;
+    border-radius: 5px;
+    background-color: #f4f6f8;
+    align-items: center !important;
+}
+.font-size-card{
+    font-size: 14px;
+}
+.footer{
+    padding: 40px 0 40px;
+    border-top: 1px solid #e8f2f8;
+    color: #637381;
+}
