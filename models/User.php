@@ -9,7 +9,7 @@
         public string $cep;
         public string $road;
         public string $district;
-        public string $number;        
+        public int $number;        
         public string $complement;
         public string $city;
         public string $state;

@@ -5,20 +5,18 @@
     require_once("User.php");
 
     class Patients extends User{
-        public string $code;
         public string $plan;
         public string $description;
 
 
             
         public function __construct(
-            string $code, string $plan,string $description, string $name,
+            string $plan,string $description, string $name,
             string $dataNasc, string $cpf, string $rg, string $phone, 
-            string $email, string $cep, string $road,string $district, string $number, string $complement, 
+            string $email, string $cep, string $road,string $district, int $number, string $complement, 
             string $city, string $state,string $country, string $password
             ){
 
-            $this->code = $code;
             $this->plan = $plan;
             $this->description = $description;
             $this->name = $name;
